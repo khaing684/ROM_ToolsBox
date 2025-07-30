@@ -1,57 +1,6 @@
-// // ContributorsPage.js
-// import React from 'react';
 
-// const ContributorsPage = () => {
-//   const contributors = [
-//     {
-//       name: 'Yoon-shwe',
-//       link: 'https://github.com/Yoon-shwe',
-//     },
-//     {
-//       name: 'Eaint Myint Mo',
-//       link: 'https://github.com/Eaint-tech',
-//     },
-//     {
-//       name: 'Thu Kha Min Tun',
-//       link: 'https://github.com/Asta224',
-//     },
-//     {
-//       name: 'Moe Sat San',
-//       link: 'https://github.com/HmueGyi',
-//     },
-//      {
-//       name: 'Aye Yadanar ',
-//       link: 'https://github.com/AyeYadanar',
-//     },
-//     {
-//       name: 'Thaw Eaindra Oo',
-//       link: 'https://github.com/Thaw3',
 
-//     },
-//     {
-//       name: 'Mya Kay Thi Khaing',
-//       link: 'https://github.com/MyakaythiKhaing081282',
-      
-//     },
-//   ];
 
-//   return (
-//     <div className="p-4">
-//       <h2>Contributors</h2>
-//       <ul>
-//         {contributors.map((contributor, index) => (
-//           <li key={index}>
-//             <a href={contributor.link} target="_blank" rel="noopener noreferrer">
-//               {contributor.name}
-//             </a>
-//           </li>
-//         ))}
-//       </ul>
-//     </div>
-//   );
-// };
-
-// export default ContributorsPage;
 
 // src/components/ContributorsPage.js
 import React from 'react';
@@ -106,12 +55,12 @@ const contributors = [
   },
    {
     name: 'Saw Hla Nandar',
-    github: 'https://github.com/Thaw3',
+    github: 'https://github.com/yoyoasaw10',
     
   },
   {
     name: 'Nan Myat Su',
-    github: 'https://github.com/myakaythikhaing081282',
+    github: 'https://github.com/NangMyatHsu',
     
   },
   
