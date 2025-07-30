@@ -22,9 +22,11 @@ const gridItems = [
     icon: <FaEye size={32} className="mb-2 text-primary" />, 
   },
   {
-    header: 'Qt Robot Control',
-    icon: <FaRobot size={32} className="mb-2 text-success" />, 
+    header: 'Qt Speed Calculator',
+    icon: <FaRocket size={32} className="mb-2 text-primary" />,
+    link: 'https://doloresax.github.io/ROM_ToolsBox/calculator/index.html',
   },
+ 
   {
     header: 'AI Agent',
     icon: <FaBrain size={32} className="mb-2 text-info" />, 
