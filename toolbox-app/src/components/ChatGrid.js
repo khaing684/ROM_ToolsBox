@@ -22,11 +22,9 @@ const gridItems = [
     icon: <FaEye size={32} className="mb-2 text-primary" />, 
   },
   {
-  header: 'Qt Speed Calculator',
-  icon: <FaRocket size={32} className="mb-2 text-success" />,
-  link: 'https://doloresax.github.io/ROM_ToolsBox/calculator/index.html',
-},
-
+    header: 'Qt Robot Control',
+    icon: <FaRobot size={32} className="mb-2 text-success" />, 
+  },
   {
     header: 'AI Agent',
     icon: <FaBrain size={32} className="mb-2 text-info" />, 
@@ -60,9 +58,7 @@ const ChatGrid = ({ theme, filter }) => {
     const filteredItems = gridItems.filter(item =>
       item.header.toLowerCase().includes(filter.toLowerCase())
     );
-    
     return (
-      
       <Row className="gx-6 gy-6">
         {filteredItems.map((item, idx) => (
           <Col xs={12} sm={6} md={4} lg={3} key={idx}>
